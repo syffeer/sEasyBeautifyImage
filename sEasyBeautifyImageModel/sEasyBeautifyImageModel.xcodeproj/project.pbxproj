@@ -15,6 +15,7 @@
 		02E5BF4D1E2326B3004B563A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E5BF4B1E2326B3004B563A /* LaunchScreen.storyboard */; };
 		02E5BF581E2326B4004B563A /* sEasyBeautifyImageModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5BF571E2326B4004B563A /* sEasyBeautifyImageModelTests.m */; };
 		02E5BF631E2326B4004B563A /* sEasyBeautifyImageModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5BF621E2326B4004B563A /* sEasyBeautifyImageModelUITests.m */; };
+		02E5BF731E232ACF004B563A /* easy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5BF721E232ACF004B563A /* easy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		02E5BF5E1E2326B4004B563A /* sEasyBeautifyImageModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sEasyBeautifyImageModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E5BF621E2326B4004B563A /* sEasyBeautifyImageModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sEasyBeautifyImageModelUITests.m; sourceTree = "<group>"; };
 		02E5BF641E2326B4004B563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E5BF711E232ACF004B563A /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		02E5BF721E232ACF004B563A /* easy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = easy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		02E5BF3C1E2326B3004B563A /* sEasyBeautifyImageModel */ = {
 			isa = PBXGroup;
 			children = (
+				02E5BF701E232AB8004B563A /* sEasyBeautifyImage */,
 				02E5BF401E2326B3004B563A /* AppDelegate.h */,
 				02E5BF411E2326B3004B563A /* AppDelegate.m */,
 				02E5BF431E2326B3004B563A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				02E5BF641E2326B4004B563A /* Info.plist */,
 			);
 			path = sEasyBeautifyImageModelUITests;
+			sourceTree = "<group>";
+		};
+		02E5BF701E232AB8004B563A /* sEasyBeautifyImage */ = {
+			isa = PBXGroup;
+			children = (
+				02E5BF711E232ACF004B563A /* easy.h */,
+				02E5BF721E232ACF004B563A /* easy.m */,
+			);
+			path = sEasyBeautifyImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				02E5BF451E2326B3004B563A /* ViewController.m in Sources */,
 				02E5BF421E2326B3004B563A /* AppDelegate.m in Sources */,
 				02E5BF3F1E2326B3004B563A /* main.m in Sources */,
+				02E5BF731E232ACF004B563A /* easy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +530,7 @@
 				02E5BF691E2326B4004B563A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02E5BF6A1E2326B4004B563A /* Build configuration list for PBXNativeTarget "sEasyBeautifyImageModelTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				02E5BF6C1E2326B4004B563A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02E5BF6D1E2326B4004B563A /* Build configuration list for PBXNativeTarget "sEasyBeautifyImageModelUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				02E5BF6F1E2326B4004B563A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
