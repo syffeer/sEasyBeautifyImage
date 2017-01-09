@@ -7,12 +7,14 @@
 //
 
 #import "easyu.h"
+@interface easyu ()
+@property (nonatomic, strong) UILabel *lab;
+@end
 
 @implementation easyu
-
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
-        
+        _lab = [[UILabel alloc]init];
     }
     return self;
 }
