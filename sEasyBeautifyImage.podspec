@@ -23,7 +23,7 @@ DESC
   s.source       = { :git => "https://github.com/syffeer/sEasyBeautifyImage.git" }
 
 
-  s.source_files  = "sEasyBeautifyImageModel/sEasyBeautifyImage/*.{h,m}"
+  s.source_files  = "sEasyBeautifyImage/*.{h,m}"
 
 
   s.requires_arc = true
