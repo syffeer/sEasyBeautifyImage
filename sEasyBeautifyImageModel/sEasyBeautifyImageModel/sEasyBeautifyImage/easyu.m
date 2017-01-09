@@ -15,6 +15,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         _lab = [[UILabel alloc]init];
+        [self addSubview:_lab];
     }
     return self;
 }

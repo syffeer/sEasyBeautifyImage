@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "sEasyBeautifyImage"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "sust testing"
 
 s.description  = <<-DESC
@@ -20,7 +20,7 @@ DESC
   s.platform     = :ios, "8.0"
 
 
-  s.source       = { :git => "https://github.com/syffeer/sEasyBeautifyImage.git":tag =>0.0.3 }
+s.source       = { :git => "https://github.com/syffeer/sEasyBeautifyImage.git", :tag => "0.0.3"}
 
 
   s.source_files  = "sEasyBeautifyImage/*.{h,m}"

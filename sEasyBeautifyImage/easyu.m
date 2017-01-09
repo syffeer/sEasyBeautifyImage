@@ -7,15 +7,16 @@
 //
 
 #import "easyu.h"
+@interface easyu ()
+@property (nonatomic, strong) UILabel *lab;
+@end
 
 @implementation easyu
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        _lab = [[UILabel alloc]init];
+    }
+    return self;
 }
-*/
 
 @end
